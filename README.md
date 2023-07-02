@@ -1,7 +1,5 @@
 # CNLand
-CPP+NODE => node风格的C++
-
-设计一门类node但没有 `async` 和 `await` 的异步痛苦思想编程语言
+设计一门类node但没有 `async` 和 `await` 的量子计算机编程语言
 草稿
 
 ### 关键词
