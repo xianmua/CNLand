@@ -55,7 +55,6 @@ void doFor() {
     msg := "Hello World"
     <<-- msg // return msg
 
-// ✨ 是主入口
 -->> main:
     getHello()
     💤1000     // 睡眠1s
