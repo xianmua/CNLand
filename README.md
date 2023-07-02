@@ -1,7 +1,7 @@
 # iconland
-基于cpp的icon编程语言思想
+设计一门类node但没有 `async` 和 `await` 的异步思想编程语言
+草稿
 
-node
 ### 关键词
 function 🆚 -->> <br>
 if 🆚 ? <br>
