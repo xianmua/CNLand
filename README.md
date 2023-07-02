@@ -57,7 +57,7 @@ void doFor() {
 
 -->> main:
     getHello()
-    💤x1     // 睡眠1s
+    sleep x 1     // 睡眠1s
     doFor()
 
 ```
