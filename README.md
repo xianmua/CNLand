@@ -1,25 +1,25 @@
 # iconland
 基于cpp的icon编程语言思想
 
-
+node
 ### 关键词
-if ❓
-else if ⁉️
-else ❗
-switch 🤔
-case 👉
-for 🔄
-const 📌
-let 🔈
-class 💧
-std::cout<< 👄
-sleep 💤
+function 🆚 -->>
+if 🆚 ?
+else if  🆚 ?!
+else 🆚 !
+return 🆚 <<--
+case 🆚 ->
+console.log 🆚 log
+
+
+
+
 日志：
 📘
 📗
 📙
 📕
-return 🔙
+
 
 
 ### 例如：ex.il
@@ -28,11 +28,11 @@ return 🔙
 -->> doFor:
     loop ([1=>10], (i: number):
           ? (i > 3 && i < 6):
-            👄"A等"
+            log: "A等"
           ?! (i > 6 && i < 9):
-            👄"B等"
+            log: "B等"
           ! :
-            👄"C等"
+            log: "C等"
     )
 
 ///////生成的cpp代码///////////
@@ -52,9 +52,8 @@ void doFor() {
 //////////////////////
 
 -->> getHello:
-    🔈msg = "Hello World"
-    🔙 msg
-
+    msg := "Hello World"
+    <<-- msg // return msg
 
 // ✨ 是主入口
 -->> main:
