@@ -22,7 +22,7 @@ console.log 🆚 log <br>
 
 
 
-### 例如：ex.ic
+### 例如：ex.cnl
 ```cpp
 
 -->> doFor:
